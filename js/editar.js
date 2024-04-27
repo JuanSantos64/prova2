@@ -11,7 +11,7 @@ function inc(nome){
     // const card = document.querySelector("#pico-background-pink-600")
     // card.querySelector("progress").value = tarefa.gols
 
-    window.location = "/"
+    window.location = "./index.html"
 }
 
 function dec(nome){
@@ -26,7 +26,7 @@ function dec(nome){
     // const card = document.querySelector(`#${titulo}`)
     // card.querySelector("progress").value = tarefa.gols
 
-    window.location = "/"
+    window.location = "./index.html"
 }
 
 function incAssis(nome){
@@ -42,7 +42,7 @@ function incAssis(nome){
     // const card = document.querySelector("#pico-background-pink-600")
     // card.querySelector("progress").value = tarefa.gols
 
-    window.location = "/"
+    window.location = "./index.html"
 }
 function decAssis(nome){
     const tarefas = JSON.parse(localStorage.getItem("tarefas")) || []
@@ -56,5 +56,5 @@ function decAssis(nome){
     // const card = document.querySelector(`#${titulo}`)
     // card.querySelector("progress").value = tarefa.gols
 
-    window.location = "/"
+    window.location = "./index.html"
 }

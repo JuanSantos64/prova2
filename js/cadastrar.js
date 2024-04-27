@@ -18,7 +18,7 @@ document.querySelector("#btn-cadastrar").addEventListener("click", (e) =>{
         tarefas.push(tarefa)
         localStorage.setItem("tarefas", JSON.stringify(tarefas))
 
-        window.location = "/"
+        window.location = "./index.html"
         
     }
 

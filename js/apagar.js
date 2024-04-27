@@ -9,6 +9,6 @@ function apagar(nome){
 
     localStorage.setItem("tarefas", JSON.stringify(tarefasFiltradas))
 
-    window.location = "/"
+    window.location = "./index.html"
     
 }
